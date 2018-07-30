@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+     <head>
+       <title> Website Name </title>
+       <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+
+        <link rel="stylesheet" type="text/css" href="style.css"
+     </head>
+
+     <body>
+       <link rel="stylesheet" type="text/css" href="style.css">
+
+      <form method="get"action="story.html">
+        <button class="button1"> Story </button>
+      </form>
+      <form method="get"action="donate.html">
+        <button class="button2"> Donate </button>
+      </form>
+      <form method="get"action="game.html">
+        <button class="button3"> Game </button>
+
+
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+    <!-- Identify your business so that you can collect the payments. -->
+    <input type="hidden" name="business"
+        value="donations@kcparkfriends.org">
+
+    <!-- Specify a Donate button. -->
+    <input type="hidden" name="cmd" value="_donations">
+
+    <!-- Specify details about the contribution -->
+    <input type="hidden" name="item_name" value="Friends of the Park">
+    <input type="hidden" name="item_number" value="Fall Cleanup Campaign">
+    <input type="hidden" name="currency_code" value="USD">
+
+    <!-- Display the payment button. -->
+    <input type="image" name="submit"
+    src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
+    alt="Donate">
+    <img alt="" width="1" height="1"
+    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+
+</form>
+
+</body>
