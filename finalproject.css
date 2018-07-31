@@ -1,24 +1,21 @@
-button {
-    background-color: #4CAF50;
-    border: black;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+h1 {
+  text-align: center;
 }
 
-button1 {
-  border-radius: 12px;
+.button4 {
+    float: left;
+    margin: 0px;
 }
-button2 {
-  border-radius: 12px;
+
+.button1 {
+    position:absolute;
 }
-button3 {
-  border-radius: 12px;
+
+.button2 {
+    text-align:center;
+    position:relative;
 }
-button4 {
-  border-radius: 12px;
+
+.button {
+  float: right;
 }
