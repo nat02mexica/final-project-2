@@ -4,9 +4,46 @@
      <head>
         <!-- I don't want to see the head on my webpage -->
         <link rel="stylesheet" type="text/css" href="style.css"
-     </head>
 
+     <header>
+       <h3> Ways To Help </h3>
+     </header>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <style>
+     .button {
+         background-color: #4CAF50; /* Green */
+         border: none;
+         color: white;
+         padding: 20px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 16px;
+         margin: 4px 2px;
+         cursor: pointer;
+     }
+
+     .button4 {border-radius: 12px;}
+     .button1 {border-radius: 12px;}
+     .button3 {border-radius: 12px;}
+     </style>
+     </head>
      <body>
+
+     <form method="get"action="home.html">
+       <button class="button button4"> Home </button>
+     </form>
+     <form method="get"action="story.html">
+       <button class="button button1"> Story </button>
+     </form>
+     <form method="get"action="game.html">
+       <button class="button button3"> Game </button>
+     </form>
+
+     </body>
+     </html>
+
+     <!-- <body>
        <link rel="stylesheet" type="text/css" href="style.css">
 
        <form method="get"action="home.html">
@@ -17,4 +54,31 @@
        </form>
        <form method="get"action="game.html">
          <button class="button3"> Game </button>
+       </form>
+
+     </body> -->
+
+
+
+       <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+       <!-- Identify your business so that you can collect the payments. -->
+       <input type="hidden" name="business"
+         value="donations@kcparkfriends.org">
+
+       <!-- Specify a Donate button. -->
+       <input type="hidden" name="cmd" value="_donations">
+
+       <!-- Specify details about the contribution -->
+       <input type="hidden" name="item_name" value="Friends of the Park">
+       <input type="hidden" name="item_number" value="Fall Cleanup Campaign">
+       <input type="hidden" name="currency_code" value="USD">
+
+       <!-- Display the payment button. -->
+       <input type="image" name="submit"
+       src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
+       alt="Donate">
+       <img alt="" width="1" height="1"
+       src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+
        </form>
