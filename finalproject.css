@@ -1,21 +1,9 @@
-h1 {
-  text-align: center;
-}
-
-.button4 {
-    float: left;
-    margin: 0px;
-}
-
-.button1 {
-    position:absolute;
-}
-
-.button2 {
-    text-align:center;
-    position:relative;
-}
-
 .button {
-  float: right;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
 }
