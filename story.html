@@ -3,77 +3,78 @@
 <html>
      <head>
         <header>
-          <h1> Story </h1>
+          <style>
+          header {
+            background-color: #800000;
+            padding: 20px;
+            text-align: center;
+            font-size: 25px;
+            color: white;
+          }
+        </style>
+
+               <div class = 'page'>
+
+                 <form method="get"action="home.html">
+                   <button class="button"> Home </button>
+                 </form>
+                 <form method="get"action="story.html">
+                   <button class="button"> Story </button>
+                 </form>
+                 <form method="get"action="donate.html">
+                   <button class="button"> Ways To Help</button>
+                 </form>
+                 <form method="get"action="game.html">
+                   <button class="button"> Game </button>
+                 </form>
+
+               </div>
+                <br>
+
+          <h1><div id="headingline" > Story </h1>
         </header>
 
         <link rel="shortcut icon" type="image/png" href="images/favicon.png">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-          <link rel="stylesheet" type="text/css" href="style.css">
+          <link rel="stylesheet" type="text/css" href="finalproject.css">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
         .button {
-          background-color: #4CAF50; /* Green */
+          background-color: #04d879; /* Green */
           border: none;
           color: white;
-          padding: 20px;
+          padding: 30px;
           text-align: center;
           text-decoration: none;
           display: inline-block;
+          float: left;
           font-size: 16px;
-          margin: 4px 2px;
+          margin: 5px 3px;
           -webkit-transition-duration: 0.4s; /* Safari */
           transition-duration: 0.4s;
           cursor: pointer;
+          background-color: white;
+          color: black;
+          border: 2px solid #FFD700;
         }
 
-        .button2 {
-            background-color: white;
-            color: black;
-            border: 2px solid #5c5cd6;
-        }
 
-        .button2:hover {
-            background-color: #5c5cd6;
+
+        .button:hover {
+            background-color: #FFD700;
             color: white;
         }
 
-        .button3 {
-            background-color: white;
-            color: black;
-            border: 2px solid #5c5cd6;
+        .button {border-radius: 12px;}
+
+        .page{
+          margin-left: 400px;
+          padding-bottom: 10px;
         }
 
-        .button3:hover {
-            background-color: #5c5cd6;
-            color: white;
-        }
-
-        .button4 {
-            background-color: white;
-            color: black;
-            border: 2px solid #5c5cd6;
-        }
-
-        .button4:hover {background-color: #5c5cd6;}
-
-        .button4 {border-radius: 12px;}
-        .button2 {border-radius: 12px;}
-        .button3 {border-radius: 12px;}
         </style>
         </head>
-        <body>
 
-          <form method="get"action="home.html">
-            <button class="button button4"> Home </button>
-          </form>
-          <form method="get"action="donate.html">
-            <button class="button button2"> Ways To Help</button>
-          </form>
-          <form method="get"action="game.html">
-            <button class="button button3"> Game </button>
-          </form>
-
-          </body>
           </html>
