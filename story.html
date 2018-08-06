@@ -24,12 +24,12 @@
                  <form method="get"action="donate.html">
                    <button class="button"> Ways To Help</button>
                  </form>
-                 <form method="get"action="game.html">
+                 <form method="get"action="game2.html">
                    <button class="button"> Game </button>
                  </form>
 
                </div>
-                <br>
+                <br><br>
 
           <h1><div id="headingline" > Story </h1>
         </header>
@@ -70,11 +70,68 @@
         .button {border-radius: 12px;}
 
         .page{
-          margin-left: 400px;
+          margin-left: 700px;
           padding-bottom: 10px;
         }
 
         </style>
-        </head>
-
+      </head>
+<br><br><br><br>
+        <title>Africa poverty</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="slideshow.css">
+ <body>
+  <div class="slideshow-container">
+     <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img src="openerAsianhands.png" style="width:100%">
+</div>
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="train.png" style="width:100%">
+   </div>
+   <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="children.png" style="width:100%">
+   </div>
+   <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="hospital.png" style="width:100%">
+   </div>
+   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+   </div>
+  <br>
+   <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentslide(4)"></span>
+  </div>
+ <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+ function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+ function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+ function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+ </body>
           </html>
